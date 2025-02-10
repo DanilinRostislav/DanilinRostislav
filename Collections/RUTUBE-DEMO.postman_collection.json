@@ -1,0 +1,667 @@
+{
+	"info": {
+		"_postman_id": "f59112eb-c8f5-4184-a4d7-01ff41c2147c",
+		"name": "RUTUBE-DEMO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39632546"
+	},
+	"item": [
+		{
+			"name": "Получение информации по кастомному плейлисту после удаления Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417059/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417059",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление кастомного плейлиста Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417050/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417050",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение информации по кастомному плейлисту после измения описания Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417059/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417059",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение информации по кастомному плейлисту после удаления видео Copy 2",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"description\": \"Измененное описание\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417059/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417059",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение информации по кастомному плейлисту после удаления видео Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417059/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417059",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление видео из плейлиста Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417059/d8de57b928be1f59165379dd731cf652/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417059",
+						"d8de57b928be1f59165379dd731cf652",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение информации по кастомному плейлисту после добавления 2-х видео Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417059/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417059",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление 2-х видео в плейлист Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"video_ids\": [\n        \"d5c79b6574ca7b4ee1cf59936131e38b\",\n        \"d8de57b928be1f59165379dd731cf652\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417059",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417059"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Возвращает список плейлистов автора канала после добавления видео в плейлист Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/user/37028435/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"user",
+						"37028435",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение информации по кастомному плейлисту после добавления одного видео Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417059/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417059",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление одного видео в плейлист Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"video_ids\": [\n        \"905e1f055d5b50454a5a4010eb20f1fa\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417059",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417059"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Возвращает список плейлистов автора канала после создания пустого плейлиста Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/user/37028435/?allow_owner_empty=1",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"user",
+						"37028435",
+						""
+					],
+					"query": [
+						{
+							"key": "allow_owner_empty",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение информации по кастомному плейлисту после создания Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417059/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417059",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание кастомного плейлиста Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Test playlist\",\n    \"description\": \"Test API for playlist\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Возвращает список плейлистов автора канала Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/user/37028435/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"user",
+						"37028435",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение информации по кастомному плейлисту после удаления Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417050/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417050",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление кастомного плейлиста Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417050/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417050",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение информации по кастомному плейлисту Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/custom/417050/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"custom",
+						"417050",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Возвращает список плейлистов автора канала Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod}}/api/playlist/user/37028435/",
+					"host": [
+						"{{prod}}"
+					],
+					"path": [
+						"api",
+						"playlist",
+						"user",
+						"37028435",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ratings_delete Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://rating.rutube.dev/api/ratings/5/",
+					"protocol": "https",
+					"host": [
+						"rating",
+						"rutube",
+						"dev"
+					],
+					"path": [
+						"api",
+						"ratings",
+						"5",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ratings_update_imdb_id Copy",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"imdb_id\": \"2024\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rating.rutube.dev/api/ratings/5/",
+					"protocol": "https",
+					"host": [
+						"rating",
+						"rutube",
+						"dev"
+					],
+					"path": [
+						"api",
+						"ratings",
+						"5",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ratings_update_video_id Copy",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"video_id\": \"5500\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rating.rutube.dev/api/ratings/5/",
+					"protocol": "https",
+					"host": [
+						"rating",
+						"rutube",
+						"dev"
+					],
+					"path": [
+						"api",
+						"ratings",
+						"5",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ratings_update Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"video_id\": \"123500\",\n    \"imdb_id\": \"9950\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rating.rutube.dev/api/ratings/5/",
+					"protocol": "https",
+					"host": [
+						"rating",
+						"rutube",
+						"dev"
+					],
+					"path": [
+						"api",
+						"ratings",
+						"5",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ratings_read Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rating.rutube.dev/api/ratings/5/",
+					"protocol": "https",
+					"host": [
+						"rating",
+						"rutube",
+						"dev"
+					],
+					"path": [
+						"api",
+						"ratings",
+						"5",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ratings_get_rating_by_imdb_id Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rating.rutube.dev/api/ratings/imdb/9988",
+					"protocol": "https",
+					"host": [
+						"rating",
+						"rutube",
+						"dev"
+					],
+					"path": [
+						"api",
+						"ratings",
+						"imdb",
+						"9988"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание нового рейтинга Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"video_id\": \"1234560\",\n        \"imdb_id\": \"9988\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rating.rutube.dev/api/ratings/",
+					"protocol": "https",
+					"host": [
+						"rating",
+						"rutube",
+						"dev"
+					],
+					"path": [
+						"api",
+						"ratings",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение списка рейтингов Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rating.rutube.dev/api/ratings/",
+					"protocol": "https",
+					"host": [
+						"rating",
+						"rutube",
+						"dev"
+					],
+					"path": [
+						"api",
+						"ratings",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

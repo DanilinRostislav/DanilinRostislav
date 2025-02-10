@@ -1,0 +1,1858 @@
+{
+	"info": {
+		"_postman_id": "46a0b64b-f8c6-43df-8664-8a707c39b7a0",
+		"name": "APP-DEMO2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39632546"
+	},
+	"item": [
+		{
+			"name": "Успешная рег. Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvc3Rpc0BtYWlsLnJ1IiwiaWQiOjEzNDE0LCJpYXQiOjE3MzEzNDY0MjgsImV4cCI6MTczMTM0NzMyOH0.LMo2VQDyEfDHMzgJClXe_uo3Ek1zjyuey9-zAkQd1lM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"rostis766@mail.ru\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. на занятый email Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"rostis766@mail.ru\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. без email Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. без password Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"rostis766@mail.ru\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. c пустым email Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. с пустым password Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"password\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. email длиной 6 символов Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"R@M.ru\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. email длиной 5 символов Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"R@M.r\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. email длиной 50 символов Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"RostislavDanilin1234RostislavDanilin12341234567891@mail.ru\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. email длиной 51 символов Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"RostislavDanilin1234RostislavDanilin123412345678912kkkkkppppppurq@mail.ru\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. password 6 символов Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"rostis766@mail.ru\",\n  \"password\": \"Zaqzaq\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. password 5 символов Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"rostis766@mail.ru\",\n  \"password\": \"Zaqza\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. password 50 символов Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"rostis766@mail.ru\",\n  \"password\": \"qwertqwertqwertqwertqwertqwertqwertqwertqwertqwert\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Рег. password 51 символов Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"rostis766@mail.ru\",\n  \"password\": \"qwertqwertqwertqwertqwertqwertqwertqwertqwertqwert1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Успешная авт. Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvc3Rpczc2NkBtYWlsLnJ1IiwiaWQiOjEzNDE1LCJpYXQiOjE3MzEzNDcxNzIsImV4cCI6MTczMTM0ODA3Mn0.oR48lTKu2Alg85PRv4gQkUoi2H7lSNiIOBLa7lEAxzQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"rostis766@mail.ru\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/login",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Авт. на не зарег. email Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvc3Rpczc2NkBtYWlsLnJ1IiwiaWQiOjEzNDE1LCJpYXQiOjE3MzEzNDcxNzIsImV4cCI6MTczMTM0ODA3Mn0.oR48lTKu2Alg85PRv4gQkUoi2H7lSNiIOBLa7lEAxzQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"Drostis766@mail.ru\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/login",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Авт. без email Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvc3Rpczc2NkBtYWlsLnJ1IiwiaWQiOjEzNDE1LCJpYXQiOjE3MzEzNDcxNzIsImV4cCI6MTczMTM0ODA3Mn0.oR48lTKu2Alg85PRv4gQkUoi2H7lSNiIOBLa7lEAxzQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/login",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Авт. без password Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvc3Rpczc2NkBtYWlsLnJ1IiwiaWQiOjEzNDE1LCJpYXQiOjE3MzEzNDcxNzIsImV4cCI6MTczMTM0ODA3Mn0.oR48lTKu2Alg85PRv4gQkUoi2H7lSNiIOBLa7lEAxzQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"rostis766@mail.ru\",\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/login",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Авт. c пустым email Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvc3Rpczc2NkBtYWlsLnJ1IiwiaWQiOjEzNDE1LCJpYXQiOjE3MzEzNDcxNzIsImV4cCI6MTczMTM0ODA3Mn0.oR48lTKu2Alg85PRv4gQkUoi2H7lSNiIOBLa7lEAxzQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/login",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Авт. с пустым password Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvc3Rpczc2NkBtYWlsLnJ1IiwiaWQiOjEzNDE1LCJpYXQiOjE3MzEzNDcxNzIsImV4cCI6MTczMTM0ODA3Mn0.oR48lTKu2Alg85PRv4gQkUoi2H7lSNiIOBLa7lEAxzQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"rostis766@mail.ru\",\n  \"password\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/login",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Успешная авт. Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvc3Rpczc2NkBtYWlsLnJ1IiwiaWQiOjEzNDE1LCJpYXQiOjE3MzEzNTEwMzMsImV4cCI6MTczMTM1MTkzM30.X_8YTEC9A_Nmt0l0acT8VNJH-XjwRQlpPDrNlzlM-4g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"rostis766@mail.ru\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/13415",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"13415"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Успешное +add Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvc3Rpczc2NkBtYWlsLnJ1IiwiaWQiOjEzNDE1LCJpYXQiOjE3MzEzNTEwMzMsImV4cCI6MTczMTM1MTkzM30.X_8YTEC9A_Nmt0l0acT8VNJH-XjwRQlpPDrNlzlM-4g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user_id\": 13415,\n    \"title\": \"test 3 back add\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Успешное -del Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvc3Rpczc2NkBtYWlsLnJ1IiwiaWQiOjEzNDE1LCJpYXQiOjE3MzEzNTEwMzMsImV4cCI6MTczMTM1MTkzM30.X_8YTEC9A_Nmt0l0acT8VNJH-XjwRQlpPDrNlzlM-4g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"todo_id\": 33078,\n  \"user_id\": 13415,\n  \"title\": \"Make dinner\",\n  \"completed\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/13415/33078",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"13415",
+						"33078"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Успешное status ref Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvc3Rpczc2NkBtYWlsLnJ1IiwiaWQiOjEzNDE1LCJpYXQiOjE3MzEzNTEwMzMsImV4cCI6MTczMTM1MTkzM30.X_8YTEC9A_Nmt0l0acT8VNJH-XjwRQlpPDrNlzlM-4g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"todo_id\": 33079,\n  \"user_id\": 13415,\n  \"title\": \"test 3 back add\",\n  \"completed\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/33079",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"33079"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Registration Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"danilinR@yandex.ru\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/registration",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"danilinR@yandex.ru\",\n  \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/login",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get list of todos Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmlsaW5SQHlhbmRleC5ydSIsImlkIjoxMzQ5OSwiaWF0IjoxNzMzMDYzNzQxLCJleHAiOjE3MzMwNjQ2NDF9.-rzWVJcdUz1DodIA7isei9EMs9teNPody_lJlDlX-PU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{user_id}}",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{user_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new todo Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmlsaW5SQHlhbmRleC5ydSIsImlkIjoxMzQ5OSwiaWF0IjoxNzMzMDYzNzQxLCJleHAiOjE3MzMwNjQ2NDF9.-rzWVJcdUz1DodIA7isei9EMs9teNPody_lJlDlX-PU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"Add task 6\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get list of todos after creation Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmlsaW5SQHlhbmRleC5ydSIsImlkIjoxMzQ5OSwiaWF0IjoxNzMzMDYzNzQxLCJleHAiOjE3MzMwNjQ2NDF9.-rzWVJcdUz1DodIA7isei9EMs9teNPody_lJlDlX-PU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{user_id}}",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{user_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update existed todo Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmlsaW5SQHlhbmRleC5ydSIsImlkIjoxMzQ5OSwiaWF0IjoxNzMzMDYzNzQxLCJleHAiOjE3MzMwNjQ2NDF9.-rzWVJcdUz1DodIA7isei9EMs9teNPody_lJlDlX-PU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"Изм\",\n  \"completed\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{todo_id}}",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{todo_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get list of todos after updating Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmlsaW5SQHlhbmRleC5ydSIsImlkIjoxMzQ5OSwiaWF0IjoxNzMzMDYzNzQxLCJleHAiOjE3MzMwNjQ2NDF9.-rzWVJcdUz1DodIA7isei9EMs9teNPody_lJlDlX-PU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{user_id}}",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{user_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete todo Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmlsaW5SQHlhbmRleC5ydSIsImlkIjoxMzQ5OSwiaWF0IjoxNzMzMDYzNzQxLCJleHAiOjE3MzMwNjQ2NDF9.-rzWVJcdUz1DodIA7isei9EMs9teNPody_lJlDlX-PU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{todo_id}}?user_id={{user_id}}",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{todo_id}}"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "{{user_id}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get list of todos after deleting Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmlsaW5SQHlhbmRleC5ydSIsImlkIjoxMzQ5OSwiaWF0IjoxNzMzMDYzNzQxLCJleHAiOjE3MzMwNjQ2NDF9.-rzWVJcdUz1DodIA7isei9EMs9teNPody_lJlDlX-PU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{user_id}}",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{user_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Авторизация пользователя в системе Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"danilinR@yandex.ru\",\n    \"password\": \"Zaqzaq123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/login",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение списка дел Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{user_id}}",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{user_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание дела Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"Провести урок по API\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание дела длина title 1 символ Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"V\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание дела длина title 0 символов Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание дела длина title 30 символов Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"012345678901234567890123456789\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание дела длина title 31 символ Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"0123456789012345678901234567890\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание дела длина title 40 символов Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"0123456789012345678901234567890123456789\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание дела без обязательного поля user id Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"Провести урок по API\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание дела c чужим user id Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": 60,\n  \"title\": \"test API\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание дела без обязательного поля title Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание дела с полем title другого типа данных Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отредактировать поле title в созданном деле Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"Edited\",\n  \"completed\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{todo_id}}",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{todo_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отредактировать поле completed в созданном деле Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"Edited\",\n  \"completed\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{todo_id}}",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{todo_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отредактировать поле completed в созданном деле поставить строку Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"Edited\",\n  \"completed\": \"RD\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{todo_id}}",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{todo_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отредактировать дело, принадлежащее другому пользователю Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"Edited\",\n  \"completed\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/6482",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"6482"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отредактировать несуществующее/удалённое дело Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": {{user_id}},\n  \"title\": \"Edited\",\n  \"completed\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/18094",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"18094"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удалить своё дело Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{user_id}}/18094",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{user_id}}",
+						"18094"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удалить дело, которого нет Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{user_id}}/18050",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{user_id}}",
+						"18050"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удалить чужое дело Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://2.59.41.2:4300/api/todos/{{user_id}}/6482",
+					"protocol": "http",
+					"host": [
+						"2",
+						"59",
+						"41",
+						"2"
+					],
+					"port": "4300",
+					"path": [
+						"api",
+						"todos",
+						"{{user_id}}",
+						"6482"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
