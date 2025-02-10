@@ -13,7 +13,7 @@
 <br>В данный период времени прохожу обучение ["Курс по автоматизации тестирования на Python"](https://otus.ru/lessons/avtomatizaciya-web-testirovaniya/).
 В дальнейшем  хочу специализироваться на авто-тестах.
 
-## Опыт работы
+## &#128185; Опыт работы
 |Организация|Срок|Должность|Грейд|Стек|Ресурс|
 |:--------------|:---------|:------|:-------------------|:-------------------|:-------------------|
 |Freelance |	09.24-01.25 |	Fullstack-тестировщик |	Middle+ |	Postman, Swagger, pgAdmin4, Jira, Sentry |	[Vtb](https://www.vtb.ru/), [RuTube](https://rutube.ru/), [ToDo](https://apps.apple.com/us/app/typs/id1145048452), [ГИП](https://www.gorinzhproekt-m.ru/), [ГИС](https://gc-gip.ru/),|
@@ -21,7 +21,7 @@
 |ПК Прогресс |	06.22-08.23 |	Тестировщик |	Junior |	DevTools, Figma, Qase.io |	[ГК-Горка](https://gk-gorka.ru/)|
 
 
-## Портфолио
+## &#128188; Портфолио
 #### <br>Документация
 
 -  Чек-листы [VTB_1](https://docs.google.com/spreadsheets/d/1WjeL8lVOuwH9PJnbxH0X19m1hS94akJu/edit?usp=drive_link&ouid=106188314117951913477&rtpof=true&sd=true),
