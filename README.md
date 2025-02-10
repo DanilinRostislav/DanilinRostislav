@@ -46,7 +46,7 @@
 -  [APP.V1](https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Collections/APP-DEMO2.postman_collection.json)
 -  [RuTube](https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Collections/RUTUBE-DEMO.postman_collection.json)
 
-## Сертификаты, курсы
+## Сертификаты, курсы &#128220;
 
 - 2022 [Тестирование ПО: Postman для тестирования API](https://stepik.org/course/120679/promo?search=6500835931) @ Stepik
 - 2024 [SQL](https://sql-academy.org/ru/check-certificate/676d6f6ae575430029240f94?language=en) @ Sql-academy
