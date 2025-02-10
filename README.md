@@ -41,7 +41,7 @@
 [Flight](https://drive.google.com/file/d/1NpK7xpVyZyWeuf9ZQFH_7i-Fau1Sx6Su/view?usp=drive_link)
 -  Mind maps [VTB](https://drive.google.com/drive/folders/1i_cgxexJs0_-NDbjhViC4CiBq00JBVd5?usp=drive_link)
 
-#### <br>Коллекции в Postman (DEMO)
+#### <br> &#128194; Коллекции в Postman (DEMO)
 
 -  [APP.V1](https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Collections/APP-DEMO2.postman_collection.json)
 -  [RuTube](https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Collections/RUTUBE-DEMO.postman_collection.json)
