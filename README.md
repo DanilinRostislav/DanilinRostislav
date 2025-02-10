@@ -43,8 +43,8 @@
 
 #### <br>Коллекции в Postman (DEMO)
 
--  [APP.V1](https://github.com/DanilinRostislav/DanilinRostislav/blob/main/APP-DEMO2.postman_collection.json)
--  [RuTube](https://github.com/DanilinRostislav/DanilinRostislav/blob/main/RUTUBE-DEMO.postman_collection.json)
+-  [APP.V1](https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Collections/APP-DEMO2.postman_collection.json)
+-  [RuTube](https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Collections/RUTUBE-DEMO.postman_collection.json)
 
 ## Сертификаты, курсы
 
