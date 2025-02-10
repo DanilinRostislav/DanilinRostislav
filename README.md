@@ -1,6 +1,6 @@
 <div align="center">
 
-[GIF](https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Gif/main.gif)
+![GIF](https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Gif/main.gif)
 </div>
 
 <h1 align="center">Привет👋 Меня зовут Ростислав!</h1>
