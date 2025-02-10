@@ -60,51 +60,51 @@
 <img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/Postman.png" width="50" height="50" />
 </a>
 <a href="https://swagger.io/">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/swagger.png" alt="Swagger" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/swagger.png" alt="Swagger" width="50" height="50" />
 </a>
 <a href="https://www.atlassian.com/software/jira">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/jira-1.svg" alt="Jira" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/jira-1.svg" alt="Jira" width="50" height="50" />
 </a>
 <a href="https://qase.io/">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/Qase.io.png" alt="Qase.io" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/Qase.io.png" alt="Qase.io" width="50" height="50" />
 </a>
 <a href="https://testit.software/">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/TestIT.png" alt="TestIT" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/TestIT.png" alt="TestIT" width="50" height="50" />
 </a>
 <a href="https://www.gurock.com/testrail">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/TestRail.png" alt="TestRail" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/TestRail.png" alt="TestRail" width="50" height="50" />
 </a>
 <a href="https://dbeaver.io/">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/DBeaver.png" alt="DBeaver" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/DBeaver.png" alt="DBeaver" width="50" height="50" />
 </a>
 <a href="https://www.postgresql.org/">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/PostgreSQL-Dark.svg" alt="PostgreSQL" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/PostgreSQL-Dark.svg" alt="PostgreSQL" width="50" height="50" />
 </a>
 <a href="https://sentry.io/">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/Sentry.svg" alt="Sentry" width="90" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/Sentry.svg" alt="Sentry" width="90" height="50" />
 </a>
 <a href="https://www.telerik.com/fiddler">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/Fiddler.png" alt="Fiddler" width="50" height="50" /> 
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/Fiddler.png" alt="Fiddler" width="50" height="50" /> 
 </a>
 <a href="https://marketplace.atlassian.com/apps/1014681/zephyr-squad-test-management-for-jira?tab=overview&hosting=cloud">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/Zephyr.png" alt="Zephyr" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/Zephyr.png" alt="Zephyr" width="50" height="50" />
 </a>
 <a href="https://figma.com">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/Figma.svg" alt="Figma" width="50" height="50" /> 
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/Figma.svg" alt="Figma" width="50" height="50" /> 
 </a>
 <a href="https://developer.apple.com/xcode/">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/Xcode.png" alt="Xcode" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/Xcode.png" alt="Xcode" width="50" height="50" />
 </a>
 <a href="https://developer.apple.com/xcode/">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/Swift.svg" alt="Swift" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/Swift.svg" alt="Swift" width="50" height="50" />
 </a>
 <a href="https://www.jetbrains.com/teamcity/">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/TeamCity.png" alt="Teamcity" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/TeamCity.png" alt="Teamcity" width="50" height="50" />
 </a>
 <a href="https://www.jenkins.io/">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/jenkins-svgrepo-com.svg" alt="Jenkins" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/jenkins-svgrepo-com.svg" alt="Jenkins" width="50" height="50" />
 </a>
 <a href="https://kafka.apache.org/">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/kafka.svg" alt="Kafka" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/kafka.svg" alt="Kafka" width="50" height="50" />
 </a>
 </p>
