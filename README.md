@@ -57,7 +57,7 @@
 <p align="left">
 
 <a href="https://www.postman.com/">
-<img src="https://github.com/DanilinRostislav/DanilinRostislav/tree/main/Icons/Postman.png" alt="Postman" width="50" height="50" />
+<img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/Icons/Postman.png" width="50" height="50" />
 </a>
 <a href="https://swagger.io/">
 <img src="https://github.com/DanilinRostislav/DanilinRostislav/blob/main/icons/swagger.png" alt="Swagger" width="50" height="50" />
