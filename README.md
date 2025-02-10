@@ -52,7 +52,7 @@
 - 2024 [SQL](https://sql-academy.org/ru/check-certificate/676d6f6ae575430029240f94?language=en) @ Sql-academy
 - 202? [AQA-Python](https://otus.ru/lessons/avtomatizaciya-web-testirovaniya/) @ Otus
 
-## Инструменты и технологии
+## &#128296; Инструменты и технологии
 
 <p align="left">
 
