@@ -22,7 +22,7 @@
 
 
 ## &#128188; Портфолио
-#### <br>Документация
+#### <br> &#128203; Документация
 
 -  Чек-листы [VTB_1](https://docs.google.com/spreadsheets/d/1WjeL8lVOuwH9PJnbxH0X19m1hS94akJu/edit?usp=drive_link&ouid=106188314117951913477&rtpof=true&sd=true),
 [VTB_2](https://docs.google.com/spreadsheets/d/1Auofbim8YgUuezITCx6O8TW_xLRWyC3O/edit?usp=drive_link&ouid=106188314117951913477&rtpof=true&sd=true)
