@@ -16,7 +16,7 @@
 ## &#128185; Опыт работы
 |Организация|Срок|Должность|Грейд|Стек|Ресурс|
 |:--------------|:---------|:------|:-------------------|:-------------------|:-------------------|
-|Freelance |	09.24-01.25 |	Fullstack-тестировщик |	Middle+ |	Postman, Swagger, pgAdmin4, Jira, Sentry |	[Vtb](https://www.vtb.ru/), [RuTube](https://rutube.ru/), [ToDo](https://apps.apple.com/us/app/typs/id1145048452), [ГИП](https://www.gorinzhproekt-m.ru/), [ГИС](https://gc-gip.ru/),|
+|Freelance |	09.24-01.25 |	Fullstack-тестировщик |	Middle |	Postman, Swagger, pgAdmin4, Jira, Sentry |	[Vtb](https://www.vtb.ru/), [RuTube](https://rutube.ru/), [ToDo](https://apps.apple.com/us/app/typs/id1145048452), [ГИП](https://www.gorinzhproekt-m.ru/), [ГИС](https://gc-gip.ru/),|
 |Магнит-доставка |	08.23-09.24 |	Инженер-тестировщик |	Middle |	Postman, Dbeaver, TestIt, Fiddler, Kafka |	[Магнит](https://magnit.ru/)|
 |ПК Прогресс |	06.22-08.23 |	Тестировщик |	Junior |	DevTools, Figma, Qase.io |	[ГК-Горка](https://gk-gorka.ru/)|
 
